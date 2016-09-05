@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/chatroom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/javascripts/main.js"></script>
+</head>
+
+<body>
+    <h1> <%= name %> ,Welcome to FSE chat room! </h1>
+    <div class="chatArea">
+
+        <ul id="messages" class="chat"></ul>
+    </div>
+
+    <input class="inputMessage" id = "inputMessage" placeholder="Type here..."/>
+    <input id="user_id" type="text" value=<%=id%> style="display:none">
+    <input id="user_name" type="text" value=<%=name%> style="display:none">
+
+</body>
+
+
+</html>

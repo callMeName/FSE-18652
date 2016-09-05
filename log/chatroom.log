@@ -1,0 +1,107 @@
+start daemon
+Server listening at port 3000
+Listening on port 3000
+undefined leave the room
+yi enter the room
+get message
+{ userId: '22', userName: 'yi', message: 'goodbye' }
+yi leave the room
+user:yi login
+DB: get user info:
+{ id: 22, name: 'yi' }
+add chatter:
+{ id: 22, name: 'yi' }
+yi enter the room
+user:xu login
+DB: get user info:
+{ id: 11, name: 'xu' }
+add chatter:
+{ id: 11, name: 'xu' }
+xu enter the room
+yi leave the room
+xu leave the room
+user:Yuhao login
+DB: get user info:
+undefined
+Yuhao doesnt exist, add him/her.
+add user Yuhao
+added done
+DB: get user info:
+{ id: 23, name: 'Yuhao' }
+add chatter:
+{ id: 23, name: 'Yuhao' }
+Yuhao enter the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+Yuhao leave the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+yuhao leave the room
+yuhao leave the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+user:xu login
+DB: get user info:
+{ id: 11, name: 'xu' }
+add chatter:
+{ id: 11, name: 'xu' }
+xu enter the room
+xu leave the room
+yuhao leave the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+yuhao leave the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+get message
+{ userId: '21', userName: 'yuhao', message: 'hey guys' }
+user:xu login
+DB: get user info:
+{ id: 11, name: 'xu' }
+add chatter:
+{ id: 11, name: 'xu' }
+xu enter the room
+user:yi login
+DB: get user info:
+{ id: 22, name: 'yi' }
+add chatter:
+{ id: 22, name: 'yi' }
+yi enter the room
+get message
+{ userId: '22', userName: 'yi', message: 'hey,yuhao' }
+get message
+{ userId: '22', userName: 'yi', message: 'long time no see!' }
+xu leave the room
+yi leave the room
+yuhao leave the room
+user:yuhao login
+DB: get user info:
+{ id: 21, name: 'yuhao' }
+add chatter:
+{ id: 21, name: 'yuhao' }
+yuhao enter the room
+get message
+{ userId: '21', userName: 'yuhao', message: 'yuhao' }
+get message
+{ userId: '21', userName: 'yuhao', message: 'yuhao' }
+yuhao leave the room
